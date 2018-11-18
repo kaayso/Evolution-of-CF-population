@@ -1,0 +1,32 @@
+swagger: "2.0"
+info:
+  description: This is the swagger file that goes with our server code
+  version: "1.0.0"
+  title: Swagger REST Article
+consumes:
+  - "application/json"
+produces:
+  - "application/json"
+
+basePath: "/api"
+
+# Paths supported by the server application
+paths:
+  /cf:
+    get:
+      operationId: "clermontFerrand.read"
+      tags:
+        - "ClermontFerrand"
+      summary: "The data structure supported by the server application"
+      description: "Read the list of the number of inhabitants by year"
+      responses:
+        200:
+          description: "Successful read data list operation"
+          schema:
+            type: "array"
+            items:
+              properties:
+                year:
+                  type: "integer"
+                inhabitants:
+                  type: "integer"
