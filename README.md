@@ -28,4 +28,4 @@ Les données sont disponible à ce endpoint : [http://localhost:8080/api/cf](htt
 Composé de deux onglets: Home/Graphical Representation<br>
 
 1. Home : Contient un tableau qui permet de faire un récapitulatif des données récupérées.<br>
-2. Graphical Representation: Contient un graphique permettant d'fficher ces données.
+2. Graphical Representation: Contient un graphique permettant d'afficher ces données.
